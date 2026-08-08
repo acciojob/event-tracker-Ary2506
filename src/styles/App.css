@@ -1,1 +1,49 @@
+.event-tracker {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
+.event-tracker h1 {
+  color: #27aedb;
+  text-align: center;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons .btn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid #27aedb;
+  background-color: #fff;
+  color: #27aedb;
+  cursor: pointer;
+}
+
+.filter-buttons .btn:hover {
+  background-color: #27aedb;
+  color: #fff;
+}
+
+.event-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.event-form input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.event-location {
+  color: #555;
+}
